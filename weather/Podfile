@@ -1,0 +1,4 @@
+target 'weather' do
+pod 'SmileWeather'
+end
+
