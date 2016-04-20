@@ -58,6 +58,7 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
   install_resource "SmileWeather/SmileWeather/Assets/smile_drop@2x.png"
   install_resource "SmileWeather/SmileWeather/Assets/smile_drop@3x.png"
   install_resource "SmileWeather/SmileWeather/Assets/smile_openweather_logo@2x.png"
@@ -83,6 +84,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "SmileWeather/SmileWeather/Assets/SmileWeatherPropertyCell.xib"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
   install_resource "SmileWeather/SmileWeather/Assets/smile_drop@2x.png"
   install_resource "SmileWeather/SmileWeather/Assets/smile_drop@3x.png"
   install_resource "SmileWeather/SmileWeather/Assets/smile_openweather_logo@2x.png"

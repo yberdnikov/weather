@@ -1,5 +1,7 @@
 target 'weather' do
 pod 'SmileWeather'
 pod 'INTULocationManager'
+pod 'SVProgressHUD'
+pod 'UIAlertView+Blocks'
 end
 

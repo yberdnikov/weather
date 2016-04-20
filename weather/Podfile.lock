@@ -1,13 +1,19 @@
 PODS:
   - INTULocationManager (4.2.0)
   - SmileWeather (0.1.6)
+  - SVProgressHUD (2.0.3)
+  - UIAlertView+Blocks (0.9)
 
 DEPENDENCIES:
   - INTULocationManager
   - SmileWeather
+  - SVProgressHUD
+  - UIAlertView+Blocks
 
 SPEC CHECKSUMS:
   INTULocationManager: 73f8254b3d05c897c56bb13c190e5b7c648c0998
   SmileWeather: bfad3ea69ddcd54f2acf835fcf156a66b98420c2
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
 
 COCOAPODS: 0.39.0
