@@ -1,10 +1,13 @@
 PODS:
+  - INTULocationManager (4.2.0)
   - SmileWeather (0.1.6)
 
 DEPENDENCIES:
+  - INTULocationManager
   - SmileWeather
 
 SPEC CHECKSUMS:
+  INTULocationManager: 73f8254b3d05c897c56bb13c190e5b7c648c0998
   SmileWeather: bfad3ea69ddcd54f2acf835fcf156a66b98420c2
 
 COCOAPODS: 0.39.0

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Climacons.ttf">
+            <string>Climacons-Font</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Root View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="rootViewController" id="BYZ-38-t0r" customClass="WFARootViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +21,68 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_img" translatesAutoresizingMaskIntoConstraints="NO" id="fnX-M6-vRf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZGi-wt-yJP">
+                                <rect key="frame" x="0.0" y="480" width="600" height="120"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="5Pd-7C-9LF"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="YAP-bG-cAs">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Vdh-jE-abt"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="I5E-1L-O52"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSf-0W-dbX">
+                                <rect key="frame" x="300.5" y="280" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Climacons-Font" family="Climacons-Font" pointSize="300"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89L-Cv-XxA">
+                                <rect key="frame" x="300.5" y="430.5" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Heavy" family="Avenir Next Condensed" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="89L-Cv-XxA" firstAttribute="centerY" secondItem="kSf-0W-dbX" secondAttribute="centerY" constant="150" id="6jt-2M-I91"/>
+                            <constraint firstItem="fnX-M6-vRf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Bu4-dP-WB1"/>
+                            <constraint firstItem="kSf-0W-dbX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-20" id="Eqz-He-3EE"/>
+                            <constraint firstAttribute="trailing" secondItem="ZGi-wt-yJP" secondAttribute="trailing" id="GyM-hm-Ocv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fnX-M6-vRf" secondAttribute="bottom" id="PJj-bd-hC3"/>
+                            <constraint firstItem="kSf-0W-dbX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Thn-aV-TAO"/>
+                            <constraint firstItem="89L-Cv-XxA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="chx-uF-eCQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ZGi-wt-yJP" secondAttribute="bottom" id="e6Q-xo-94C"/>
+                            <constraint firstItem="fnX-M6-vRf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="h6g-3T-t1b"/>
+                            <constraint firstItem="ZGi-wt-yJP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jYM-nz-2NW"/>
+                            <constraint firstAttribute="trailing" secondItem="fnX-M6-vRf" secondAttribute="trailing" id="vv2-V6-AXb"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="currentTemperatureLabel" destination="89L-Cv-XxA" id="g0E-x5-JwB"/>
+                        <outlet property="currentWeatherIconLabel" destination="kSf-0W-dbX" id="m5M-CK-UlX"/>
+                        <outlet property="forecastCollectionView" destination="ZGi-wt-yJP" id="QbN-6l-ShV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="312"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg_img" width="999" height="663"/>
+    </resources>
 </document>

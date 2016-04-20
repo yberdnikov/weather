@@ -1,4 +1,5 @@
 target 'weather' do
 pod 'SmileWeather'
+pod 'INTULocationManager'
 end
 

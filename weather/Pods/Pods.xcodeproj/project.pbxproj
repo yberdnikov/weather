@@ -10,61 +10,80 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>006A95D6DFACF8665C3DE2DC5F3A5C36</key>
+		<key>00D6011B39ADFF788F8CF48D6E4E85AA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>INTULocationManager.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>00DFDC0C9ED35E4D3E1931A97E64829A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SmileWeatherOneDayData.m</string>
+			<key>path</key>
+			<string>SmileWeather/Classes/SmileWeatherOneDayData.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0105F6C36AE3F96CB4C3AFCA0EF24D26</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>B028E4435A623CFFE22BF849A2739FCF</string>
+				<string>B29279E88FF900D271D9E8EF28314049</string>
+				<string>C1C16EC5BEF39E0550DDB82FCDB1B13E</string>
+				<string>F696BDE0294CF255BF819B91DCBB101A</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
+			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>0601A51485FA36E81014D1D0EB1CB5BF</key>
+		<key>042F54A6FF5A908A9AF2DBC73E1FBCD4</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>Climacons.ttf</string>
+			<string>libSmileWeather.a</string>
 			<key>path</key>
-			<string>SmileWeather/Assets/Climacons.ttf</string>
+			<string>libSmileWeather.a</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>09F724437B97378E5CB2D467FDD46697</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>smile_sunglass@3x.png</string>
-			<key>path</key>
-			<string>SmileWeather/Assets/smile_sunglass@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0DF888F6DD0C826CE3D0B25E80761149</key>
+		<key>050D5AB0AAF3CFFFAABEC4BF11B4A074</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>file.xib</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SmileWeatherForecastCell.xib</string>
+			<string>SmileWeatherForecastDayData.h</string>
 			<key>path</key>
-			<string>SmileWeather/Assets/SmileWeatherForecastCell.xib</string>
+			<string>SmileWeather/Classes/SmileWeatherForecastDayData.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0F708EF27079E448C52424900A2EF1C5</key>
+		<key>0520CDE9D2617C82A25DEA69090A176B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -72,27 +91,37 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SmileWeatherHourlyData.m</string>
 			<key>path</key>
-			<string>SmileWeather/Classes/SmileWeatherHourlyData.m</string>
+			<string>SmileWeather-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>122779660D10C857E2EA4FE3F7527395</key>
+		<key>08386E0C5958FDA6C926C7F37A1EB02F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SmileLineLayout.m</string>
+			<string>smile_wind@3x.png</string>
 			<key>path</key>
-			<string>SmileWeather/Classes/SmileLineLayout.m</string>
+			<string>SmileWeather/Assets/smile_wind@3x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>084394C809FEDEF8ACC7558A270BA766</key>
+		<dict>
+			<key>fileRef</key>
+			<string>00DFDC0C9ED35E4D3E1931A97E64829A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0E2E7A743D4FB874AA32C02D206889DC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>524DE4ACFB607B209FC2C5C16FF19694</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>122DA2E5084A4393C29BE363C764795C</key>
 		<dict>
@@ -107,49 +136,71 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>162EBECC85C7C62D7E5A3C39D03E8F12</key>
+		<key>153564A282298AE2BE671B7B3B744FBF</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>SmileWeather.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>173611AAB874444D3CA76CDC02D7AFD5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SmileWeatherDemoVC.m</string>
-			<key>path</key>
-			<string>SmileWeather/Classes/SmileWeatherDemoVC.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>17698335347306A2D473CD678D8FC786</key>
-		<dict>
-			<key>fileRef</key>
-			<string>26374D0AAF3066E983812367D1DB4C3F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
+			<key>baseConfigurationReference</key>
+			<string>348EF41ACC534D1F3C12F2D8938AE33B</string>
+			<key>buildSettings</key>
 			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
 			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
-		<key>183F474F26C27DD55CAE6BEB0A35CE1B</key>
+		<key>169B5D62D4249BBDC0E8C6279B02C865</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>454DF9555531EDE888D84FB4D479A270</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>18D0193B94A0A97F150D2C08641C5857</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -164,53 +215,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>19B4236C420665730A925245F505252C</key>
+		<key>199E4E5765509D8D941FBC3B5C1D1F9A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SmileClimacons.h</string>
+			<string>NSString+SmileSubstring.m</string>
 			<key>path</key>
-			<string>SmileWeather/Classes/SmileClimacons.h</string>
+			<string>SmileWeather/Classes/NSString+SmileSubstring.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1A9782173BE146AE9562F00FEC09ACFD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>smile_sunset@3x.png</string>
-			<key>path</key>
-			<string>SmileWeather/Assets/smile_sunset@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1AC8DE7A93A048921719023636916ABB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SmileWeatherCurrentData.h</string>
-			<key>path</key>
-			<string>SmileWeather/Classes/SmileWeatherCurrentData.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1FB427CFE001FB26346CE832E0D918EA</key>
+		<key>1A228BBAFDA5990EC4EE2E070EA33A80</key>
 		<dict>
 			<key>fileRef</key>
-			<string>53B151793EE468073C04BC12C474B5FA</string>
+			<string>510BAE78ED579C0AB38FFC93946AFA3F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -221,23 +244,25 @@
 				</array>
 			</dict>
 		</dict>
-		<key>2298AE8215BBD488EBF2AE6DB1298FFD</key>
+		<key>1A23C7911241B8C53FCC137DBEC16432</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>470A90894229DB8ABE53023480CB4473</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>Pods</string>
+			<string>SmileWeatherCurrentData.m</string>
+			<key>path</key>
+			<string>SmileWeather/Classes/SmileWeatherCurrentData.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>22D75D5A53758FB9D81601A0DAE42EE4</key>
+		<key>1AF50813224E7F7952A91C4D6892785D</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>162EBECC85C7C62D7E5A3C39D03E8F12</string>
+			<string>A34426DE407FA8D3660E52360200B8B7</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -268,17 +293,25 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>233CA90B86568DFED2B7565F62DA4D74</key>
+		<key>1BB3341DC021EF4C2BC2BB08B5DC4EF6</key>
 		<dict>
-			<key>fileRef</key>
-			<string>0F708EF27079E448C52424900A2EF1C5</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SmileWeatherHourlyData.h</string>
+			<key>path</key>
+			<string>SmileWeather/Classes/SmileWeatherHourlyData.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>249527D56443C95CAB627FDF64E8980C</key>
+		<key>1F669E84968FBADFAA925A10A6DDFAC1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8113E6D921C1A23C7054CEF558FD9E0B</string>
+			<string>1BB3341DC021EF4C2BC2BB08B5DC4EF6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -289,7 +322,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>26106B8CECAC5046732599700EB761AF</key>
+		<key>20DF942C1A5435ECE8012B9746AA77AE</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -304,46 +337,42 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>26374D0AAF3066E983812367D1DB4C3F</key>
+		<key>20E1D89428D05EFA34EA2A38F9455AA6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SmileWeatherDownLoader.h</string>
+			<string>smile_pressure@3x.png</string>
 			<key>path</key>
-			<string>SmileWeather/Classes/SmileWeatherDownLoader.h</string>
+			<string>SmileWeather/Assets/smile_pressure@3x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>276E2DBD3EAA0B76213F1E179CB68B67</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libSmileWeather.a</string>
-			<key>path</key>
-			<string>libSmileWeather.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>28A1C0111A386B2E3BF071972BF578E3</key>
+		<key>2A889246740BB4A7F09802615D8D72EB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>smile_wunder_logo@3x.png</string>
+			<string>smile_sunset@2x.png</string>
 			<key>path</key>
-			<string>SmileWeather/Assets/smile_wunder_logo@3x.png</string>
+			<string>SmileWeather/Assets/smile_sunset@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2AE0F69991A2EAB87B68905A12B0DC4F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>smile_pressure@2x.png</string>
+			<key>path</key>
+			<string>SmileWeather/Assets/smile_pressure@2x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -420,35 +449,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>2BC4C98702C83A7C3286E5269AF000A2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSString+SmileSubstring.m</string>
-			<key>path</key>
-			<string>SmileWeather/Classes/NSString+SmileSubstring.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D37ABC0494F84E8207F39916D12F207</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>26106B8CECAC5046732599700EB761AF</string>
-				<string>276E2DBD3EAA0B76213F1E179CB68B67</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -462,6 +462,61 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
+		</dict>
+		<key>2E0EF893B8843D4C7EA4E979F1CA60CC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6BD206DAFDF9A4074970BDECAFC11663</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2ECF44416148A7F1BAA704A299F94935</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>smile_drop@2x.png</string>
+			<key>path</key>
+			<string>SmileWeather/Assets/smile_drop@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>311DE8901D87BBF4585AA2317F0DF46C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>smile_wunder_logo@3x.png</string>
+			<key>path</key>
+			<string>SmileWeather/Assets/smile_wunder_logo@3x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>317D04A724D0E1B4B6EFABB571824F97</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6A5AA296FA14D7B17C7AC53B84806F42</string>
+				<string>20DF942C1A5435ECE8012B9746AA77AE</string>
+				<string>042F54A6FF5A908A9AF2DBC73E1FBCD4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>31C6F6D68E837F2A3BECFADEFC3F1C07</key>
 		<dict>
@@ -489,132 +544,90 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>35191D43D76114255025EE268F419B96</key>
+		<key>361C1431FCAB8C123905F370BF7826BD</key>
 		<dict>
-			<key>fileRef</key>
-			<string>524DE4ACFB607B209FC2C5C16FF19694</string>
+			<key>children</key>
+			<array>
+				<string>A34426DE407FA8D3660E52360200B8B7</string>
+				<string>0520CDE9D2617C82A25DEA69090A176B</string>
+				<string>A61443F0742E478392BFA1DCF595CEBB</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SmileWeather</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>36EFA0EC704AF546108EA64D3665ECF7</key>
+		<key>364A0A1129A160DA45CFA0DAD956F121</key>
 		<dict>
-			<key>fileRef</key>
-			<string>19B4236C420665730A925245F505252C</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SmileLineLayout.h</string>
+			<key>path</key>
+			<string>SmileWeather/Classes/SmileLineLayout.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3A756BD1605702512C8ABA09F0D461FC</key>
+		<key>3922F474F5B10495B705DA9F5B045528</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>smile_drop@3x.png</string>
+			<string>smile_wind@2x.png</string>
 			<key>path</key>
-			<string>SmileWeather/Assets/smile_drop@3x.png</string>
+			<string>SmileWeather/Assets/smile_wind@2x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3AA497F545D2A3646274F2700984E44F</key>
+		<key>3B73891E354D614D2730DEE867B3001D</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>6C98661F4E447EB5032FECCA8DC97BAA</string>
-			<key>buildPhases</key>
-			<array>
-				<string>456F74061CDF9725261FBCDAC404830E</string>
-				<string>C5EA4EFCDD300892FCD61E90C3997A64</string>
-				<string>3CBCFDACAEDF30639B136618C137A14E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>SmileWeather</string>
-			<key>productName</key>
-			<string>SmileWeather</string>
-			<key>productReference</key>
-			<string>276E2DBD3EAA0B76213F1E179CB68B67</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>smile_wunder_logo@2x.png</string>
+			<key>path</key>
+			<string>SmileWeather/Assets/smile_wunder_logo@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3CBCFDACAEDF30639B136618C137A14E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>249527D56443C95CAB627FDF64E8980C</string>
-				<string>36EFA0EC704AF546108EA64D3665ECF7</string>
-				<string>94B6EBCBCEDBB1623350CFB42C296B93</string>
-				<string>7DD5657897DFA98875EAB3DE0525E53A</string>
-				<string>D44A1DBDE1E02224F4DBB0B2E8D4D93A</string>
-				<string>3EF6116BCEEAD95488547A9775B7C0E3</string>
-				<string>17698335347306A2D473CD678D8FC786</string>
-				<string>6660F6AD784481430580902C41B92662</string>
-				<string>1FB427CFE001FB26346CE832E0D918EA</string>
-				<string>A59BC19CCE51198B4ABF671E5BDE03B7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3D0D43DE14494A44A9EFD6D512460392</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>454DF9555531EDE888D84FB4D479A270</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3EF6116BCEEAD95488547A9775B7C0E3</key>
+		<key>3B842DF9C7552A3F6AEF2852F4BBF767</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DBCAB8B586F9633F40BB7F59612631E0</string>
+			<string>524DE4ACFB607B209FC2C5C16FF19694</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+		</dict>
+		<key>3BEB14D6F37FD6CCE421AED600973F81</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8E703B6FFC4154EA0A45203AF9D98249</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3FD5DEA2B30706A1B377E2FEB191855B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>smile_umbrella@3x.png</string>
+			<key>path</key>
+			<string>SmileWeather/Assets/smile_umbrella@3x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>454DF9555531EDE888D84FB4D479A270</key>
 		<dict>
@@ -629,92 +642,73 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>456F74061CDF9725261FBCDAC404830E</key>
+		<key>47203760BB9DF52FD65477D97268A3AA</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>65B9F2205292D6C996B06EBBB7ECE5A9</string>
-				<string>6A5F6CA8E90DA1A4BFD8471449B1DDA1</string>
-				<string>C7F9532104279A0ECD8A105694167CD9</string>
-				<string>C4941DA7F7B781AECEFD995F4177FCDF</string>
-				<string>A24B6D135ADD5796262328B8BF7C477A</string>
-				<string>C00677AAC50D1FB478DAC35DDBB7E05F</string>
-				<string>7F61BEEC6D6D0F24AF64B697DC737DB0</string>
-				<string>9246EE1D94BA6DEA28D5DA362695485F</string>
-				<string>233CA90B86568DFED2B7565F62DA4D74</string>
-				<string>B02C2CCF69CB80A7072E107222728F3E</string>
-			</array>
+			<key>fileRef</key>
+			<string>E60E46656AA92A66AA4C945311BB886C</string>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>470A90894229DB8ABE53023480CB4473</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8113E6D921C1A23C7054CEF558FD9E0B</string>
-				<string>2BC4C98702C83A7C3286E5269AF000A2</string>
-				<string>19B4236C420665730A925245F505252C</string>
-				<string>F2D59F70DC0BE2161FCEF25EBC71B0CB</string>
-				<string>122779660D10C857E2EA4FE3F7527395</string>
-				<string>1AC8DE7A93A048921719023636916ABB</string>
-				<string>CBA36480006DFEB4151B64C772462A50</string>
-				<string>AF8B3C432A4386C7B3FBE88B0B34A2FE</string>
-				<string>FEDCD6CEC675D5D0ECBCE8F8C7C80DA2</string>
-				<string>DBCAB8B586F9633F40BB7F59612631E0</string>
-				<string>173611AAB874444D3CA76CDC02D7AFD5</string>
-				<string>26374D0AAF3066E983812367D1DB4C3F</string>
-				<string>B76038E8B2FF8EC500F7305F4C555402</string>
-				<string>554C55219F456DE79B2F06E831FE4777</string>
-				<string>AA9C5FEB2B622712A8F0648F49A76101</string>
-				<string>53B151793EE468073C04BC12C474B5FA</string>
-				<string>0F708EF27079E448C52424900A2EF1C5</string>
-				<string>B358FEF1B83E04268A1B5AD36B41524D</string>
-				<string>57F41BE9450B1C1F1E653B02537FD768</string>
-				<string>D1783BFB460A3C7C69C0ECEF383E2FB7</string>
-				<string>471555E99DDBC8CA0DF2C68DDDAFF98C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SmileWeather</string>
-			<key>path</key>
-			<string>SmileWeather</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>471555E99DDBC8CA0DF2C68DDDAFF98C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>162EBECC85C7C62D7E5A3C39D03E8F12</string>
-				<string>C9CBA27050EF9AF9F6F617ACB3ACCACB</string>
-				<string>B7ACE416943F38F2EAFFAE8CD21A1AF4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/SmileWeather</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A1132CA9DD02EC9DCE993DDF340DACE</key>
+		<key>491EB0D8247D80890B80FE60F5495C72</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>file.xib</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SmileWeatherPropertyCell.xib</string>
+			<string>INTULocationManager+Internal.h</string>
 			<key>path</key>
-			<string>SmileWeather/Assets/SmileWeatherPropertyCell.xib</string>
+			<string>LocationManager/INTULocationManager/INTULocationManager+Internal.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>49F67B13CCC3F13B35B13236B80472B4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SmileWeatherDemoVC.m</string>
+			<key>path</key>
+			<string>SmileWeather/Classes/SmileWeatherDemoVC.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4CA407AA097F75F51F5219FA65255AAA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DD69AFDB19703395C9D9AE65970DE166</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4FF97150A2630BD40FF316F15F63CB31</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>INTULocationManager</string>
+			<key>target</key>
+			<string>E07A1B93D0B5E99C6E979FACDA81D9B4</string>
+			<key>targetProxy</key>
+			<string>600F6D078C885B91DBBCCAD6B8DAD420</string>
+		</dict>
+		<key>510BAE78ED579C0AB38FFC93946AFA3F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SmileWeatherOneDayData.h</string>
+			<key>path</key>
+			<string>SmileWeather/Classes/SmileWeatherOneDayData.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -731,33 +725,18 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>53B151793EE468073C04BC12C474B5FA</key>
+		<key>54ECCCF24D8FCF3965E4D08770E7D022</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SmileWeatherHourlyData.h</string>
+			<string>INTURequestIDGenerator.m</string>
 			<key>path</key>
-			<string>SmileWeather/Classes/SmileWeatherHourlyData.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>554C55219F456DE79B2F06E831FE4777</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SmileWeatherForecastDayData.h</string>
-			<key>path</key>
-			<string>SmileWeather/Classes/SmileWeatherForecastDayData.h</string>
+			<string>LocationManager/INTULocationManager/INTURequestIDGenerator.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -774,18 +753,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>57F41BE9450B1C1F1E653B02537FD768</key>
+		<key>5943679AB4DB2F26E25F6FA68200FD5D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SmileWeatherOneDayData.m</string>
+			<string>INTULocationManager.h</string>
 			<key>path</key>
-			<string>SmileWeather/Classes/SmileWeatherOneDayData.m</string>
+			<string>LocationManager/INTULocationManager/INTULocationManager.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -857,62 +836,395 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>5A44C22DC811DD9B460E07A1DA6977AA</key>
+		<key>5D1D046888ADD4598BD947C041C65063</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>348EF41ACC534D1F3C12F2D8938AE33B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>SmileWeatherDemoView.xib</string>
+			<key>path</key>
+			<string>SmileWeather/Assets/SmileWeatherDemoView.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5D85452EB235B33868907C5730BA8F38</key>
+		<key>5D53A53B217C2D53E78602A5A329E6E7</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>8268C56A18DA7DFD320EB7D6A1C45BA4</string>
+				<string>624A8749858E0D9E6AC961BF31B11853</string>
+				<string>CDDD0DB26C8B1A70791A9033819F87D6</string>
+				<string>C7E3296C771F5CDD3010045BF480BD11</string>
+				<string>8413F55A2077D0FAE8433FC3CE876216</string>
+				<string>9A8C5DD734A35D2A640CDE4069E88B7D</string>
+				<string>6C45F38A6B761B4F9886F4941BA69673</string>
+				<string>F69F5ED151A0D24E6D699308F7EAAA1B</string>
+				<string>92091EB9170A9EA4284357CBFF1C7293</string>
+				<string>1F669E84968FBADFAA925A10A6DDFAC1</string>
+				<string>1A228BBAFDA5990EC4EE2E070EA33A80</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
+			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>65B9F2205292D6C996B06EBBB7ECE5A9</key>
+		<key>5F8CC740F9BBDA65A13C4EECDCCD8DF4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>INTURequestIDGenerator.h</string>
+			<key>path</key>
+			<string>LocationManager/INTULocationManager/INTURequestIDGenerator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>600F6D078C885B91DBBCCAD6B8DAD420</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>E07A1B93D0B5E99C6E979FACDA81D9B4</string>
+			<key>remoteInfo</key>
+			<string>INTULocationManager</string>
+		</dict>
+		<key>624A8749858E0D9E6AC961BF31B11853</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2BC4C98702C83A7C3286E5269AF000A2</string>
+			<string>F9414E4CB958A8DB4CE4537967072618</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>657F2F340BDF64C33577FF8B55F382B8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SmileWeatherDownLoader.h</string>
+			<key>path</key>
+			<string>SmileWeather/Classes/SmileWeatherDownLoader.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>66D0583075C56B7024826FB9D8FAEDC2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>76BF7A8CEE682829BF08793A12F90860</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>66446FFFB4C59EF05379B0B928A81B95</key>
+		<key>6A5AA296FA14D7B17C7AC53B84806F42</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libINTULocationManager.a</string>
+			<key>path</key>
+			<string>libINTULocationManager.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>6BD206DAFDF9A4074970BDECAFC11663</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>INTULocationRequest.h</string>
+			<key>path</key>
+			<string>LocationManager/INTULocationManager/INTULocationRequest.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6C45F38A6B761B4F9886F4941BA69673</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ACD7E20648E6DD59545DF9D880159651</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>704829A3910E153298C482537DDBE0E2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B026A22E0E118AE17E6F907E54C9DAC4</string>
+				<string>524DE4ACFB607B209FC2C5C16FF19694</string>
+				<string>A48B62CC8A6EFC33D04AAC25D8FC2B45</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>72E8D2373612390877B6C9C7FA8ECD0D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-weather-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7315F2635E24C6FD1484694F368EE46D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>8CFC5F1A7E05A8C255BC42AE36A553CC</string>
+			<key>buildPhases</key>
+			<array>
+				<string>CFD494882DEFFDB9B13B9553F1F695B1</string>
+				<string>0105F6C36AE3F96CB4C3AFCA0EF24D26</string>
+				<string>5D53A53B217C2D53E78602A5A329E6E7</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SmileWeather</string>
+			<key>productName</key>
+			<string>SmileWeather</string>
+			<key>productReference</key>
+			<string>042F54A6FF5A908A9AF2DBC73E1FBCD4</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>73469072C0EC5C633C5365E56E374978</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1A23C7911241B8C53FCC137DBEC16432</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7371DE85C82B0B5CEFB037C3EBAF0CE6</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>E11CCCF97D81CB385736EB509E652466</string>
+			<key>buildPhases</key>
+			<array>
+				<string>BA7EDA1F4FA0504E6CBD5F4F9696CB13</string>
+				<string>BCB3D2D7C5DE9E23F1FB4C4F0FABA290</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>4FF97150A2630BD40FF316F15F63CB31</string>
+				<string>81924558EB1E5AF6B1CA24D8D534B253</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-weather</string>
+			<key>productName</key>
+			<string>Pods-weather</string>
+			<key>productReference</key>
+			<string>20DF942C1A5435ECE8012B9746AA77AE</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>73F3A1CC41533B512E538BE3D4AF09F1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SmileWeatherCurrentData.h</string>
+			<key>path</key>
+			<string>SmileWeather/Classes/SmileWeatherCurrentData.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>76668D835DE36DD410504B003F50E2A9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>smile_sunrise@3x.png</string>
+			<key>path</key>
+			<string>SmileWeather/Assets/smile_sunrise@3x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>76BF7A8CEE682829BF08793A12F90860</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>INTUHeadingRequest.m</string>
+			<key>path</key>
+			<string>LocationManager/INTULocationManager/INTUHeadingRequest.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>76F90EE2D28AB19554A0D10E43462370</key>
+		<dict>
+			<key>fileRef</key>
+			<string>491EB0D8247D80890B80FE60F5495C72</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>79E4FF1200758E51DFE63C25B8024596</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F5EA4DD763D5E33199B5D73A710D2598</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7B1E429845B9563A9F5EA367C3758411</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5F8CC740F9BBDA65A13C4EECDCCD8DF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7D65EA1DBD4E8A8441B653CE89A04097</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DF84B6C3DFBFF498E5EAACC53DE8DA26</string>
+				<string>2ECF44416148A7F1BAA704A299F94935</string>
+				<string>CE555E9BDFED0D860363FF0E3F7CA112</string>
+				<string>9279F529719EBF1A0317CCD8438980DF</string>
+				<string>8FE804B9295D38CA8E9F5EAFF214E372</string>
+				<string>2AE0F69991A2EAB87B68905A12B0DC4F</string>
+				<string>20E1D89428D05EFA34EA2A38F9455AA6</string>
+				<string>878598D4985F5B8D6F66763C9B79BD31</string>
+				<string>BB97AF4E0222A608BAEC927CD68E7E37</string>
+				<string>F9EF4BA04AEDF4100F22C0DBC1D21A7B</string>
+				<string>76668D835DE36DD410504B003F50E2A9</string>
+				<string>2A889246740BB4A7F09802615D8D72EB</string>
+				<string>F5167C1A24C172E05A0DCA46B9508589</string>
+				<string>D9735C9EFAF413D27A4F95C30BA814AD</string>
+				<string>3FD5DEA2B30706A1B377E2FEB191855B</string>
+				<string>3922F474F5B10495B705DA9F5B045528</string>
+				<string>08386E0C5958FDA6C926C7F37A1EB02F</string>
+				<string>3B73891E354D614D2730DEE867B3001D</string>
+				<string>311DE8901D87BBF4585AA2317F0DF46C</string>
+				<string>5D1D046888ADD4598BD947C041C65063</string>
+				<string>86A2EEE5ABBF1880BB551F22AEAEF01D</string>
+				<string>18D0193B94A0A97F150D2C08641C5857</string>
+				<string>F09C62A1D075BD3A1932E051988EA0A7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
+				<string>122DA2E5084A4393C29BE363C764795C</string>
+				<string>96621F72D53FD9E919BB7C961C4A7EC9</string>
+				<string>317D04A724D0E1B4B6EFABB571824F97</string>
+				<string>F7177157E02A671B8B50FFDDCC3B1CFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>81924558EB1E5AF6B1CA24D8D534B253</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SmileWeather</string>
+			<key>target</key>
+			<string>7315F2635E24C6FD1484694F368EE46D</string>
+			<key>targetProxy</key>
+			<string>B611884BDB0584824F3F60FCAEB68178</string>
+		</dict>
+		<key>8413F55A2077D0FAE8433FC3CE876216</key>
+		<dict>
+			<key>fileRef</key>
+			<string>73F3A1CC41533B512E538BE3D4AF09F1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>85A15996A1E72EA95F3FB31ECC70E3EB</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>162EBECC85C7C62D7E5A3C39D03E8F12</string>
+			<string>A34426DE407FA8D3660E52360200B8B7</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -943,174 +1255,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>6650E34D559F1F8EA4BB8A06539A62AF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>smile_pressure@2x.png</string>
-			<key>path</key>
-			<string>SmileWeather/Assets/smile_pressure@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6660F6AD784481430580902C41B92662</key>
-		<dict>
-			<key>fileRef</key>
-			<string>554C55219F456DE79B2F06E831FE4777</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6A5F6CA8E90DA1A4BFD8471449B1DDA1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>122779660D10C857E2EA4FE3F7527395</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6C98661F4E447EB5032FECCA8DC97BAA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>66446FFFB4C59EF05379B0B928A81B95</string>
-				<string>22D75D5A53758FB9D81601A0DAE42EE4</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>6E2232D58E3A1CA1426586E7424C4089</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3AA497F545D2A3646274F2700984E44F</string>
-			<key>remoteInfo</key>
-			<string>SmileWeather</string>
-		</dict>
-		<key>704829A3910E153298C482537DDBE0E2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B026A22E0E118AE17E6F907E54C9DAC4</string>
-				<string>524DE4ACFB607B209FC2C5C16FF19694</string>
-				<string>A48B62CC8A6EFC33D04AAC25D8FC2B45</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>71E5D372D54E28831BE131C4F88E10E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>smile_umbrella@2x.png</string>
-			<key>path</key>
-			<string>SmileWeather/Assets/smile_umbrella@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72E8D2373612390877B6C9C7FA8ECD0D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-weather-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>122DA2E5084A4393C29BE363C764795C</string>
-				<string>2298AE8215BBD488EBF2AE6DB1298FFD</string>
-				<string>2D37ABC0494F84E8207F39916D12F207</string>
-				<string>F7177157E02A671B8B50FFDDCC3B1CFF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DD5657897DFA98875EAB3DE0525E53A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1AC8DE7A93A048921719023636916ABB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7F61BEEC6D6D0F24AF64B697DC737DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B76038E8B2FF8EC500F7305F4C555402</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8113E6D921C1A23C7054CEF558FD9E0B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSString+SmileSubstring.h</string>
-			<key>path</key>
-			<string>SmileWeather/Classes/NSString+SmileSubstring.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8268C56A18DA7DFD320EB7D6A1C45BA4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>524DE4ACFB607B209FC2C5C16FF19694</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9246EE1D94BA6DEA28D5DA362695485F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AA9C5FEB2B622712A8F0648F49A76101</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>93EB7A4CEE23ED318553BE3E7CA48B26</key>
+		<key>86A2EEE5ABBF1880BB551F22AEAEF01D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1119,87 +1264,47 @@
 			<key>lastKnownFileType</key>
 			<string>file.xib</string>
 			<key>name</key>
-			<string>SmileWeatherDemoView.xib</string>
+			<string>SmileWeatherForecastCell.xib</string>
 			<key>path</key>
-			<string>SmileWeather/Assets/SmileWeatherDemoView.xib</string>
+			<string>SmileWeather/Assets/SmileWeatherForecastCell.xib</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>94B6EBCBCEDBB1623350CFB42C296B93</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2D59F70DC0BE2161FCEF25EBC71B0CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9533DD860CD5DA493E5609C0F67EC20A</key>
+		<key>878598D4985F5B8D6F66763C9B79BD31</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>smile_wind@3x.png</string>
+			<string>smile_sunglass@2x.png</string>
 			<key>path</key>
-			<string>SmileWeather/Assets/smile_wind@3x.png</string>
+			<string>SmileWeather/Assets/smile_sunglass@2x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9F2C5B7CDC2A82DFC652009BD6625F3B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>smile_wunder_logo@2x.png</string>
-			<key>path</key>
-			<string>SmileWeather/Assets/smile_wunder_logo@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A24B6D135ADD5796262328B8BF7C477A</key>
+		<key>89E20C9E3C0B7BD19D5D7273C31139EA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FEDCD6CEC675D5D0ECBCE8F8C7C80DA2</string>
+			<string>CBC7699D83B6AECC9B6AB834217317E1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A48B62CC8A6EFC33D04AAC25D8FC2B45</key>
+		<key>8CFC5F1A7E05A8C255BC42AE36A553CC</key>
 		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>85A15996A1E72EA95F3FB31ECC70E3EB</string>
+				<string>1AF50813224E7F7952A91C4D6892785D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>A59BC19CCE51198B4ABF671E5BDE03B7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B358FEF1B83E04268A1B5AD36B41524D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>AA9C5FEB2B622712A8F0648F49A76101</key>
+		<key>8D2348FF93DE04BC854EA23E43549A47</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1208,13 +1313,124 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SmileWeatherForecastDayData.m</string>
+			<string>INTULocationRequest.m</string>
 			<key>path</key>
-			<string>SmileWeather/Classes/SmileWeatherForecastDayData.m</string>
+			<string>LocationManager/INTULocationManager/INTULocationRequest.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AF8B3C432A4386C7B3FBE88B0B34A2FE</key>
+		<key>8E703B6FFC4154EA0A45203AF9D98249</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SmileLineLayout.m</string>
+			<key>path</key>
+			<string>SmileWeather/Classes/SmileLineLayout.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8F6EA8DF4AA2C91F2E86882DAB0D7CEB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3B842DF9C7552A3F6AEF2852F4BBF767</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8FE804B9295D38CA8E9F5EAFF214E372</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>smile_openweather_logo@3x.png</string>
+			<key>path</key>
+			<string>SmileWeather/Assets/smile_openweather_logo@3x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>92091EB9170A9EA4284357CBFF1C7293</key>
+		<dict>
+			<key>fileRef</key>
+			<string>050D5AB0AAF3CFFFAABEC4BF11B4A074</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9279F529719EBF1A0317CCD8438980DF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>smile_openweather_logo@2x.png</string>
+			<key>path</key>
+			<string>SmileWeather/Assets/smile_openweather_logo@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>956EE1C012F9347657AE178C42CC52F3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>INTULocationRequestDefines.h</string>
+			<key>path</key>
+			<string>LocationManager/INTULocationManager/INTULocationRequestDefines.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>96621F72D53FD9E919BB7C961C4A7EC9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D8DFF4FD4768B3DC34AD29C0768CB3F6</string>
+				<string>E304342097699CD1BAC8053CA1A1C88B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9A8C5DD734A35D2A640CDE4069E88B7D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9F46F5173CBC9878853DCDBDE2FDC724</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9F46F5173CBC9878853DCDBDE2FDC724</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1229,6 +1445,115 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>A34426DE407FA8D3660E52360200B8B7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SmileWeather.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A36E68C4CEDFC13260228BAE7F57881C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D7C4D243753E4C5E8A859EF75DA4942A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A48B62CC8A6EFC33D04AAC25D8FC2B45</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>A58B96C29D8DD010BD113F11688F1129</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0520CDE9D2617C82A25DEA69090A176B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A61443F0742E478392BFA1DCF595CEBB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SmileWeather-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ACD7E20648E6DD59545DF9D880159651</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SmileWeatherDemoVC.h</string>
+			<key>path</key>
+			<string>SmileWeather/Classes/SmileWeatherDemoVC.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AF795D7B70534F762B47506AF5ABEF0D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>00D6011B39ADFF788F8CF48D6E4E85AA</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/INTULocationManager/INTULocationManager-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
 		<key>B026A22E0E118AE17E6F907E54C9DAC4</key>
 		<dict>
 			<key>isa</key>
@@ -1242,36 +1567,75 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>B028E4435A623CFFE22BF849A2739FCF</key>
+		<key>B08A1078AC5AFE1A86CEDA533FB8B88E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>66D0583075C56B7024826FB9D8FAEDC2</string>
+				<string>F180C99A07A325C35BCF659770E61140</string>
+				<string>47203760BB9DF52FD65477D97268A3AA</string>
+				<string>D0C3E9B513CBD10BF34F44A380DCEB77</string>
+				<string>B94B56B836DA079EE6F98300E9EF97C8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B29279E88FF900D271D9E8EF28314049</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F5EA4DD763D5E33199B5D73A710D2598</string>
+			<string>B026A22E0E118AE17E6F907E54C9DAC4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>B02C2CCF69CB80A7072E107222728F3E</key>
+		<key>B339AF6D82CFB60840D85A779469A459</key>
 		<dict>
-			<key>fileRef</key>
-			<string>57F41BE9450B1C1F1E653B02537FD768</string>
+			<key>children</key>
+			<array>
+				<string>00D6011B39ADFF788F8CF48D6E4E85AA</string>
+				<string>CFF5FAF83B2663E4BBAD7C9D2979F309</string>
+				<string>FB311BD683778C3CD872ED2339BC2F50</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B358FEF1B83E04268A1B5AD36B41524D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>SmileWeatherOneDayData.h</string>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>SmileWeather/Classes/SmileWeatherOneDayData.h</string>
+			<string>../Target Support Files/INTULocationManager</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B76038E8B2FF8EC500F7305F4C555402</key>
+		<key>B611884BDB0584824F3F60FCAEB68178</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>7315F2635E24C6FD1484694F368EE46D</string>
+			<key>remoteInfo</key>
+			<string>SmileWeather</string>
+		</dict>
+		<key>B7FE3FD7E744731EEF503BA2FD307716</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BA1EDB9C28B7B0A38F9602C735D59B97</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B94B56B836DA079EE6F98300E9EF97C8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>54ECCCF24D8FCF3965E4D08770E7D022</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BA1EDB9C28B7B0A38F9602C735D59B97</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1280,22 +1644,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SmileWeatherDownLoader.m</string>
+			<string>SmileWeatherHourlyData.m</string>
 			<key>path</key>
-			<string>SmileWeather/Classes/SmileWeatherDownLoader.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7ACE416943F38F2EAFFAE8CD21A1AF4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SmileWeather-prefix.pch</string>
+			<string>SmileWeather/Classes/SmileWeatherHourlyData.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1316,25 +1667,45 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BB47916BF6253BD797E704ADD7535FF1</key>
+		<key>BA7EDA1F4FA0504E6CBD5F4F9696CB13</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>79E4FF1200758E51DFE63C25B8024596</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BB8840C11EDC92B798C16B2008503345</key>
+		<dict>
+			<key>fileRef</key>
+			<string>956EE1C012F9347657AE178C42CC52F3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>BB97AF4E0222A608BAEC927CD68E7E37</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>smile_openweather_logo@2x.png</string>
+			<string>smile_sunglass@3x.png</string>
 			<key>path</key>
-			<string>SmileWeather/Assets/smile_openweather_logo@2x.png</string>
+			<string>SmileWeather/Assets/smile_sunglass@3x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BB53D4BF329210FD29DB83D9AE80C652</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B026A22E0E118AE17E6F907E54C9DAC4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>BCA129DE6DEAE5B4D498435602C3A3F0</key>
 		<dict>
@@ -1349,80 +1720,41 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C00677AAC50D1FB478DAC35DDBB7E05F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>173611AAB874444D3CA76CDC02D7AFD5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C2A74F47EF46AA7F2BFD00BAFA492DDF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>smile_drop@2x.png</string>
-			<key>path</key>
-			<string>SmileWeather/Assets/smile_drop@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4941DA7F7B781AECEFD995F4177FCDF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CBA36480006DFEB4151B64C772462A50</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C5EA4EFCDD300892FCD61E90C3997A64</key>
+		<key>BCB3D2D7C5DE9E23F1FB4C4F0FABA290</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>BB53D4BF329210FD29DB83D9AE80C652</string>
-				<string>35191D43D76114255025EE268F419B96</string>
-				<string>EE7971BB91D92E97A038FF76158D0897</string>
+				<string>0E2E7A743D4FB874AA32C02D206889DC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>C7F9532104279A0ECD8A105694167CD9</key>
+		<key>C1C16EC5BEF39E0550DDB82FCDB1B13E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9CBA27050EF9AF9F6F617ACB3ACCACB</string>
+			<string>524DE4ACFB607B209FC2C5C16FF19694</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C89DC5608678A82A7401D2EC291C795B</key>
+		<key>C7E3296C771F5CDD3010045BF480BD11</key>
 		<dict>
+			<key>fileRef</key>
+			<string>364A0A1129A160DA45CFA0DAD956F121</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SmileWeather</string>
-			<key>target</key>
-			<string>3AA497F545D2A3646274F2700984E44F</string>
-			<key>targetProxy</key>
-			<string>6E2232D58E3A1CA1426586E7424C4089</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
-		<key>C9CBA27050EF9AF9F6F617ACB3ACCACB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SmileWeather-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CBA36480006DFEB4151B64C772462A50</key>
+		<key>CBC7699D83B6AECC9B6AB834217317E1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1431,44 +1763,114 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SmileWeatherCurrentData.m</string>
+			<string>SmileWeatherData.m</string>
 			<key>path</key>
-			<string>SmileWeather/Classes/SmileWeatherCurrentData.m</string>
+			<string>SmileWeather/Classes/SmileWeatherData.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D1783BFB460A3C7C69C0ECEF383E2FB7</key>
+		<key>CDDD0DB26C8B1A70791A9033819F87D6</key>
 		<dict>
-			<key>children</key>
+			<key>fileRef</key>
+			<string>DB4C78B883A68A7E99FFE156AE39F821</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CE555E9BDFED0D860363FF0E3F7CA112</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>smile_drop@3x.png</string>
+			<key>path</key>
+			<string>SmileWeather/Assets/smile_drop@3x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CFD494882DEFFDB9B13B9553F1F695B1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>0601A51485FA36E81014D1D0EB1CB5BF</string>
-				<string>C2A74F47EF46AA7F2BFD00BAFA492DDF</string>
-				<string>3A756BD1605702512C8ABA09F0D461FC</string>
-				<string>BB47916BF6253BD797E704ADD7535FF1</string>
-				<string>E0C972170CAAAA7DEDA17DC70C6F685D</string>
-				<string>6650E34D559F1F8EA4BB8A06539A62AF</string>
-				<string>E2E084AF6C0306E0D554917DC3270A04</string>
-				<string>FED0430A6E57FEB970C5EA33E391558C</string>
-				<string>09F724437B97378E5CB2D467FDD46697</string>
-				<string>ED4ECECC2185909AA47E34084E0DC88E</string>
-				<string>E9FDDBCD4BA372FF56AABCE737947F7D</string>
-				<string>E24B5AC4733A87BE2AF44DD49D1D5E7F</string>
-				<string>1A9782173BE146AE9562F00FEC09ACFD</string>
-				<string>71E5D372D54E28831BE131C4F88E10E7</string>
-				<string>E0F257D803A4097D7D21328832C379BA</string>
-				<string>EAC40EC52EE86E6C7FE927E1AB13C2EC</string>
-				<string>9533DD860CD5DA493E5609C0F67EC20A</string>
-				<string>9F2C5B7CDC2A82DFC652009BD6625F3B</string>
-				<string>28A1C0111A386B2E3BF071972BF578E3</string>
-				<string>93EB7A4CEE23ED318553BE3E7CA48B26</string>
-				<string>0DF888F6DD0C826CE3D0B25E80761149</string>
-				<string>183F474F26C27DD55CAE6BEB0A35CE1B</string>
-				<string>4A1132CA9DD02EC9DCE993DDF340DACE</string>
+				<string>F07C795CFFB3BF4CFF49597FF2C707D2</string>
+				<string>3BEB14D6F37FD6CCE421AED600973F81</string>
+				<string>A58B96C29D8DD010BD113F11688F1129</string>
+				<string>73469072C0EC5C633C5365E56E374978</string>
+				<string>89E20C9E3C0B7BD19D5D7273C31139EA</string>
+				<string>D0F76DA8070B3BE7FF56AAD68D3E42B2</string>
+				<string>4CA407AA097F75F51F5219FA65255AAA</string>
+				<string>D60A075E2BD465F01DD6D29E9ED7EBD7</string>
+				<string>B7FE3FD7E744731EEF503BA2FD307716</string>
+				<string>084394C809FEDEF8ACC7558A270BA766</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CFF5FAF83B2663E4BBAD7C9D2979F309</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>INTULocationManager-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CFFC1D97C028CC13F8C712173BEC6367</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5943679AB4DB2F26E25F6FA68200FD5D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D0C3E9B513CBD10BF34F44A380DCEB77</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8D2348FF93DE04BC854EA23E43549A47</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D0F76DA8070B3BE7FF56AAD68D3E42B2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>49F67B13CCC3F13B35B13236B80472B4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D356D39336702EBDD8C34190AB76413C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>Resources</string>
+			<string>SmileWeatherForecastDayData.m</string>
+			<key>path</key>
+			<string>SmileWeather/Classes/SmileWeatherForecastDayData.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1498,7 +1900,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>2D37ABC0494F84E8207F39916D12F207</string>
+			<string>317D04A724D0E1B4B6EFABB571824F97</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1507,25 +1909,19 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>F6FF9EAE3FFD9667069F61FBB899D443</string>
-				<string>3AA497F545D2A3646274F2700984E44F</string>
+				<string>E07A1B93D0B5E99C6E979FACDA81D9B4</string>
+				<string>7371DE85C82B0B5CEFB037C3EBAF0CE6</string>
+				<string>7315F2635E24C6FD1484694F368EE46D</string>
 			</array>
 		</dict>
-		<key>D44A1DBDE1E02224F4DBB0B2E8D4D93A</key>
+		<key>D60A075E2BD465F01DD6D29E9ED7EBD7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AF8B3C432A4386C7B3FBE88B0B34A2FE</string>
+			<string>D356D39336702EBDD8C34190AB76413C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
-		<key>DBCAB8B586F9633F40BB7F59612631E0</key>
+		<key>D7C4D243753E4C5E8A859EF75DA4942A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1534,18 +1930,158 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SmileWeatherDemoVC.h</string>
+			<string>INTUHeadingRequest.h</string>
 			<key>path</key>
-			<string>SmileWeather/Classes/SmileWeatherDemoVC.h</string>
+			<string>LocationManager/INTULocationManager/INTUHeadingRequest.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DEBD7E19665FB0D7ADD52628416A478B</key>
+		<key>D8DFF4FD4768B3DC34AD29C0768CB3F6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D7C4D243753E4C5E8A859EF75DA4942A</string>
+				<string>76BF7A8CEE682829BF08793A12F90860</string>
+				<string>5943679AB4DB2F26E25F6FA68200FD5D</string>
+				<string>E60E46656AA92A66AA4C945311BB886C</string>
+				<string>491EB0D8247D80890B80FE60F5495C72</string>
+				<string>6BD206DAFDF9A4074970BDECAFC11663</string>
+				<string>8D2348FF93DE04BC854EA23E43549A47</string>
+				<string>956EE1C012F9347657AE178C42CC52F3</string>
+				<string>5F8CC740F9BBDA65A13C4EECDCCD8DF4</string>
+				<string>54ECCCF24D8FCF3965E4D08770E7D022</string>
+				<string>B339AF6D82CFB60840D85A779469A459</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>INTULocationManager</string>
+			<key>path</key>
+			<string>INTULocationManager</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D9735C9EFAF413D27A4F95C30BA814AD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>smile_umbrella@2x.png</string>
+			<key>path</key>
+			<string>SmileWeather/Assets/smile_umbrella@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DB4C78B883A68A7E99FFE156AE39F821</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SmileClimacons.h</string>
+			<key>path</key>
+			<string>SmileWeather/Classes/SmileClimacons.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DD69AFDB19703395C9D9AE65970DE166</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SmileWeatherDownLoader.m</string>
+			<key>path</key>
+			<string>SmileWeather/Classes/SmileWeatherDownLoader.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DF84B6C3DFBFF498E5EAACC53DE8DA26</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Climacons.ttf</string>
+			<key>path</key>
+			<string>SmileWeather/Assets/Climacons.ttf</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DFF9F6DF287CBCD55ACA080E9052E859</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>00D6011B39ADFF788F8CF48D6E4E85AA</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/INTULocationManager/INTULocationManager-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>E07A1B93D0B5E99C6E979FACDA81D9B4</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>FF87CB73FE66AAA5CF4BB9A7A158023D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>B08A1078AC5AFE1A86CEDA533FB8B88E</string>
+				<string>8F6EA8DF4AA2C91F2E86882DAB0D7CEB</string>
+				<string>E32A6A27F2976714C0D47AF442F7C8E0</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>INTULocationManager</string>
+			<key>productName</key>
+			<string>INTULocationManager</string>
+			<key>productReference</key>
+			<string>6A5AA296FA14D7B17C7AC53B84806F42</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>E11CCCF97D81CB385736EB509E652466</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>5A44C22DC811DD9B460E07A1DA6977AA</string>
-				<string>3D0D43DE14494A44A9EFD6D512460392</string>
+				<string>153564A282298AE2BE671B7B3B744FBF</string>
+				<string>169B5D62D4249BBDC0E8C6279B02C865</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -1554,81 +2090,71 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>E0C972170CAAAA7DEDA17DC70C6F685D</key>
+		<key>E304342097699CD1BAC8053CA1A1C88B</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>F9414E4CB958A8DB4CE4537967072618</string>
+				<string>199E4E5765509D8D941FBC3B5C1D1F9A</string>
+				<string>DB4C78B883A68A7E99FFE156AE39F821</string>
+				<string>364A0A1129A160DA45CFA0DAD956F121</string>
+				<string>8E703B6FFC4154EA0A45203AF9D98249</string>
+				<string>73F3A1CC41533B512E538BE3D4AF09F1</string>
+				<string>1A23C7911241B8C53FCC137DBEC16432</string>
+				<string>9F46F5173CBC9878853DCDBDE2FDC724</string>
+				<string>CBC7699D83B6AECC9B6AB834217317E1</string>
+				<string>ACD7E20648E6DD59545DF9D880159651</string>
+				<string>49F67B13CCC3F13B35B13236B80472B4</string>
+				<string>657F2F340BDF64C33577FF8B55F382B8</string>
+				<string>DD69AFDB19703395C9D9AE65970DE166</string>
+				<string>050D5AB0AAF3CFFFAABEC4BF11B4A074</string>
+				<string>D356D39336702EBDD8C34190AB76413C</string>
+				<string>1BB3341DC021EF4C2BC2BB08B5DC4EF6</string>
+				<string>BA1EDB9C28B7B0A38F9602C735D59B97</string>
+				<string>510BAE78ED579C0AB38FFC93946AFA3F</string>
+				<string>00DFDC0C9ED35E4D3E1931A97E64829A</string>
+				<string>7D65EA1DBD4E8A8441B653CE89A04097</string>
+				<string>361C1431FCAB8C123905F370BF7826BD</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>smile_openweather_logo@3x.png</string>
+			<string>SmileWeather</string>
 			<key>path</key>
-			<string>SmileWeather/Assets/smile_openweather_logo@3x.png</string>
+			<string>SmileWeather</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E0F257D803A4097D7D21328832C379BA</key>
+		<key>E32A6A27F2976714C0D47AF442F7C8E0</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A36E68C4CEDFC13260228BAE7F57881C</string>
+				<string>76F90EE2D28AB19554A0D10E43462370</string>
+				<string>CFFC1D97C028CC13F8C712173BEC6367</string>
+				<string>2E0EF893B8843D4C7EA4E979F1CA60CC</string>
+				<string>BB8840C11EDC92B798C16B2008503345</string>
+				<string>7B1E429845B9563A9F5EA367C3758411</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>smile_umbrella@3x.png</string>
-			<key>path</key>
-			<string>SmileWeather/Assets/smile_umbrella@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>E24B5AC4733A87BE2AF44DD49D1D5E7F</key>
+		<key>E60E46656AA92A66AA4C945311BB886C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>smile_sunset@2x.png</string>
+			<string>INTULocationManager.m</string>
 			<key>path</key>
-			<string>SmileWeather/Assets/smile_sunset@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2E084AF6C0306E0D554917DC3270A04</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>smile_pressure@3x.png</string>
-			<key>path</key>
-			<string>SmileWeather/Assets/smile_pressure@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9FDDBCD4BA372FF56AABCE737947F7D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>smile_sunrise@3x.png</string>
-			<key>path</key>
-			<string>SmileWeather/Assets/smile_sunrise@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EAC40EC52EE86E6C7FE927E1AB13C2EC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>smile_wind@2x.png</string>
-			<key>path</key>
-			<string>SmileWeather/Assets/smile_wind@2x.png</string>
+			<string>LocationManager/INTULocationManager/INTULocationManager.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1653,38 +2179,45 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ED4ECECC2185909AA47E34084E0DC88E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>smile_sunrise@2x.png</string>
-			<key>path</key>
-			<string>SmileWeather/Assets/smile_sunrise@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EE7971BB91D92E97A038FF76158D0897</key>
+		<key>F07C795CFFB3BF4CFF49597FF2C707D2</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A48B62CC8A6EFC33D04AAC25D8FC2B45</string>
+			<string>199E4E5765509D8D941FBC3B5C1D1F9A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>F2D59F70DC0BE2161FCEF25EBC71B0CB</key>
+		<key>F09C62A1D075BD3A1932E051988EA0A7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>file.xib</string>
 			<key>name</key>
-			<string>SmileLineLayout.h</string>
+			<string>SmileWeatherPropertyCell.xib</string>
 			<key>path</key>
-			<string>SmileWeather/Classes/SmileLineLayout.h</string>
+			<string>SmileWeather/Assets/SmileWeatherPropertyCell.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F180C99A07A325C35BCF659770E61140</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CFF5FAF83B2663E4BBAD7C9D2979F309</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F5167C1A24C172E05A0DCA46B9508589</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>smile_sunset@3x.png</string>
+			<key>path</key>
+			<string>SmileWeather/Assets/smile_sunset@3x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1701,31 +2234,26 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F6FF9EAE3FFD9667069F61FBB899D443</key>
+		<key>F696BDE0294CF255BF819B91DCBB101A</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>DEBD7E19665FB0D7ADD52628416A478B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>006A95D6DFACF8665C3DE2DC5F3A5C36</string>
-				<string>5D85452EB235B33868907C5730BA8F38</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>C89DC5608678A82A7401D2EC291C795B</string>
-			</array>
+			<key>fileRef</key>
+			<string>A48B62CC8A6EFC33D04AAC25D8FC2B45</string>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-weather</string>
-			<key>productName</key>
-			<string>Pods-weather</string>
-			<key>productReference</key>
-			<string>26106B8CECAC5046732599700EB761AF</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F69F5ED151A0D24E6D699308F7EAAA1B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>657F2F340BDF64C33577FF8B55F382B8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>F7177157E02A671B8B50FFDDCC3B1CFF</key>
 		<dict>
@@ -1740,33 +2268,60 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FED0430A6E57FEB970C5EA33E391558C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>smile_sunglass@2x.png</string>
-			<key>path</key>
-			<string>SmileWeather/Assets/smile_sunglass@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEDCD6CEC675D5D0ECBCE8F8C7C80DA2</key>
+		<key>F9414E4CB958A8DB4CE4537967072618</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SmileWeatherData.m</string>
+			<string>NSString+SmileSubstring.h</string>
 			<key>path</key>
-			<string>SmileWeather/Classes/SmileWeatherData.m</string>
+			<string>SmileWeather/Classes/NSString+SmileSubstring.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F9EF4BA04AEDF4100F22C0DBC1D21A7B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>smile_sunrise@2x.png</string>
+			<key>path</key>
+			<string>SmileWeather/Assets/smile_sunrise@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FB311BD683778C3CD872ED2339BC2F50</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>INTULocationManager-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FF87CB73FE66AAA5CF4BB9A7A158023D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>DFF9F6DF287CBCD55ACA080E9052E859</string>
+				<string>AF795D7B70534F762B47506AF5ABEF0D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
